@@ -1,5 +1,7 @@
 require("core.lazysetup")
+
 require("config.options")
+require("config.nowarn")
 
 require("lazy").setup({
 	require("plugins.theme"),
