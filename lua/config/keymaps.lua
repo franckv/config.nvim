@@ -26,3 +26,5 @@ map("n", "<C-l>", "<C-w><C-l>", "Move focus to the right window")
 map("n", "<C-j>", "<C-w><C-j>", "Move focus to the lower window")
 map("n", "<C-k>", "<C-w><C-k>", "Move focus to the upper window")
 
+-- NeoTree
+map("n", "<leader>t", ":Neotree reveal toggle position=float<CR>", "NeoTree reveal")
